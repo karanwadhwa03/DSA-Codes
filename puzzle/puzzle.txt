@@ -1,0 +1,34 @@
+*Celebrity Problem :- in a party there are n person and 1 is you and 1 Celebrity you have to found who is Celebrity Everyone know celebrity but celebrity know none
+        O(N) Approach Answer .
+        {
+        take A and B if a ans he knows b then a is not Celebrity
+                    if a ans he does not knows b then b is not Celebrity
+        }
+
+
+*Whogotmorecoins :- two friend  A and B can choode from start or end u have to tell startegy to make win A . A start first
+        {
+              calculate even and odd sum
+        }
+
+*Applesandoranges:- Three boxes Apple,oranges ,and AO wrong labeled . u have to tell about correct place
+        {
+          take fruit from Ao
+
+        }
+
+*100doors
+
+
+ *15minutes:-11 min and 7min.
+        {
+        2 Approach:
+              1) 22 min.
+              2) 15 min.
+        }
+
+*coin piles
+        {
+          
+
+        }

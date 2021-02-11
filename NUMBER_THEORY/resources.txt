@@ -1,0 +1,5 @@
+SIEVE OF ERATHONESIS
+EUclid
+extended Euclid
+multiplicative modulo inverse
+sachin and varun problem

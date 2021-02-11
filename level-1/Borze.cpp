@@ -17,19 +17,19 @@ int main(){
                 cout<<"1";
                 i++;
             }
+
             
-            
-            
+
         }
         else{
             cout<<"0";
         }
-        
-        
+
+
     }
     //cout<<i;
     if(i!=(s.length()))
         cout<<"0";
-    
-    
+
+
 }
