@@ -1,0 +1,67 @@
+// Heap Sort 
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+void heapify(vector<int> &A , int index , int n){
+    int lChild = 2*index+1;
+    int RChild = 2*index+2;
+    int largest = index;
+    if(lChild < n && A[lChild] > A[largest] ){
+        largest=lChild;
+    }
+    
+    if(RChild < n && A[RChild] > A[largest] ){
+        largest=RChild;
+    }
+    
+    
+    if(largest != index){
+            swap(A[index],A[largest]);
+            heapify(A,largest,n);
+    }
+    
+}
+
+
+int main() {
+    // your code goes here
+
+    vector < int > data = {
+        1,
+        6,
+        3,
+        4,
+        9,2,2
+    };
+
+    int n = data.size(); 
+
+    
+    //makeMaxHeap
+    for(int i=(n-1)/2;i>=0;i--){
+        heapify(data ,i,n);
+    }
+
+    for(auto it:data){
+        cout << it << " ";
+    }
+    
+    for(int i=0;i<n;i++){
+        swap(data[0],data[n-i-1]);
+        heapify(data,0,n-i-1);
+    }
+    cout<<endl;
+    
+    for(auto it:data){
+        cout << it << " ";
+    }
+
+    
+
+
+
+}
